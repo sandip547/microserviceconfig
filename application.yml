@@ -1,6 +1,10 @@
 spring:
   application:
     name: config-default
+  datasource:
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
 eureka:
   instance:
     prefer-ip-address: true
